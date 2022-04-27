@@ -466,9 +466,9 @@ def debug_video(input_path,output_path):
 input_path = sys.argv[1]
 output_path = sys.argv[2]
 mood = sys.argv[3]
-if(mood == '--debugmood'):
+if(mood == '1'):
     debug_video(input_path,output_path)
-else:
+elif(mood == '2'):
     process_video(input_path,output_path)
 
 
